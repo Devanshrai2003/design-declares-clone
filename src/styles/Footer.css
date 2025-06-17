@@ -1,0 +1,117 @@
+.footer-section {
+  background-color: var(--color-bg-red);
+  padding: 2.5rem 4rem;
+  width: 80%;
+  font-family: sans-serif;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 3rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.footer-top {
+  grid-row: 1 / span 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.logo {
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.footer-links a {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.footer-links a:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.newsletter-signup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 33%;
+}
+
+.signup-consent {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.link {
+  color: black;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--color-heading);
+  text-decoration: underline var(--color-heading);
+}
+
+.email-input {
+  border: 1px solid black;
+}
+
+.footer-bottom {
+  grid-row: 4 / span 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-bottom-text {
+  grid-column: 2 / span 2;
+}
+
+.footer-bottom-text p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 750px) {
+  .footer-section {
+    width: 100%;
+    padding: 2.5rem 1rem;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .newsletter-signup {
+    width: 100%;
+  }
+
+  .signup-consent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-bottom-text {
+    grid-column: 1 / span 3;
+  }
+}

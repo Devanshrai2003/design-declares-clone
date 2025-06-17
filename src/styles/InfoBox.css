@@ -1,0 +1,55 @@
+.content-box {
+  background-color: var(--color-heading);
+  border-bottom: 1px solid black;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  gap: 1rem;
+}
+
+.title-box span {
+  font-size: 3.6rem;
+  border-right: 1px solid black;
+  padding: 0.125rem 1.2rem;
+}
+
+.title-box h1 {
+  font-size: 3.6rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.description {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: black;
+}
+
+@media (max-width: 765px) {
+  .title-box span {
+    font-size: 2.2rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .title-box h1 {
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .description {
+    padding: 0.6rem;
+    padding-bottom: 2.6rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+  }
+}

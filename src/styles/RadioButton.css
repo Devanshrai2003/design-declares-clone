@@ -1,0 +1,30 @@
+.radio-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  font-family: sans-serif;
+}
+
+.radio-box {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--color-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.radio-button input[type="radio"] {
+  display: none;
+}
+
+.cross {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.radio-label {
+  font-size: 1.2rem;
+}

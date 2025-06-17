@@ -1,0 +1,29 @@
+.general-button,
+.footer-button {
+  background-color: var(--color-heading);
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  border: none;
+  width: fit-content;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.general-button:hover {
+  background-color: var(--color-bg-red);
+}
+
+.footer-button:hover {
+  background-color: black;
+  color: var(--color-heading);
+}
+
+@media (max-width: 765px) {
+  .general-button,
+  .footer-button {
+    width: 100%;
+  }
+}

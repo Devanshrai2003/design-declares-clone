@@ -1,0 +1,14 @@
+.main-content {
+  position: relative;
+  background-color: black;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-bottom: 400px;
+  z-index: 1;
+}
+
+@media (max-width: 750px) {
+  .main-content {
+    margin-bottom: 900px;
+  }
+}

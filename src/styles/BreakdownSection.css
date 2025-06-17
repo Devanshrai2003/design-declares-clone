@@ -1,0 +1,19 @@
+.info-text {
+  color: var(--color-heading);
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-family: sans-serif;
+  overflow-wrap: break-word;
+}
+
+.accordion-list {
+  display: grid;
+  row-gap: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .info-text {
+    font-size: 3rem;
+  }
+}
