@@ -1,6 +1,6 @@
 # Design Declares – Assignment Submission
 
-This is my submission for the **Design Declares Frontend Assignment**. It replicates a responsive landing page with animated sections, styled inputs, and smooth user experience using modern React and CSS techniques.
+This is my submission for the **Design Declares Clone Assignment**. It replicates a responsive landing page with animated sections, styled inputs, and smooth user experience using modern React and CSS techniques.
 
 ## Live Demo
 
